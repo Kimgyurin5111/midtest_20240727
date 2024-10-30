@@ -10,7 +10,7 @@ function setup() {
 
 function draw() {
   image(img, 0, 0, width, height);
-  
+
   //1
   beginShape();
   fill(202, 174, 160);
@@ -33,8 +33,8 @@ function draw() {
   beginShape();
   fill(211, 183, 169);
   noStroke();
-  vertex(609, 275);
-  vertex(616.5, 335);
+  vertex(608.7, 275);
+  vertex(617.3, 335.5);
   vertex(673, 310);
   endShape(CLOSE);
 
@@ -42,9 +42,9 @@ function draw() {
   beginShape();
   fill(141, 157, 180);
   noStroke();
-  vertex(610, 275);
+  vertex(609.5, 275.2);
   vertex(653, 229);
-  vertex(673, 310);
+  vertex(672.8, 310);
   endShape(CLOSE);
 
   //5
@@ -62,14 +62,14 @@ function draw() {
   noStroke();
   vertex(609, 275);
   vertex(591, 209);
-  vertex(546, 255);
+  vertex(546, 254.7);
   endShape(CLOSE);
 
   //7
   beginShape();
   fill(147, 160, 170);
   noStroke();
-  vertex(609.4, 275.3);
+  vertex(609.2, 275.5);
   vertex(591, 209);
   vertex(653, 229);
   endShape(CLOSE);
@@ -152,17 +152,17 @@ function draw() {
   noStroke();
   vertex(653, 229);
   vertex(696.3, 271);
-  vertex(707.3, 334);
-  vertex(673, 310);
+  vertex(707.3, 334.8);
+  vertex(673, 310.3);
   endShape(CLOSE);
 
   //17
   beginShape();
   fill(200, 163, 140);
   noStroke();
-  vertex(673, 309);
-  vertex(707.3, 334);
-  vertex(645, 359.5);
+  vertex(673, 310.3);
+  vertex(707.3, 334.8);
+  vertex(644.9, 360);
   endShape(CLOSE);
 
   //18
@@ -171,7 +171,7 @@ function draw() {
   noStroke();
   vertex(785.5, 327.3);
   vertex(696, 271);
-  vertex(707.2, 333.7);
+  vertex(707.3, 334.8);
   endShape(CLOSE);
 
   //19
@@ -179,8 +179,8 @@ function draw() {
   fill(10, 22, 34);
   noStroke();
   vertex(785.6, 327.3);
-  vertex(752.6, 378);
-  vertex(707, 333.9);
+  vertex(752.7, 377.9);
+  vertex(707, 334);
   endShape(CLOSE);
 
   //20
@@ -197,8 +197,8 @@ function draw() {
   fill(35, 80, 119);
   noStroke();
   vertex(785.6, 327.3);
-  vertex(817.5, 265.7);
-  vertex(755, 270);
+  vertex(818.3, 266);
+  vertex(755.1, 270);
   endShape(CLOSE);
 
   //22
@@ -206,8 +206,8 @@ function draw() {
   fill(19, 60, 80);
   noStroke();
   vertex(785.6, 327.3);
-  vertex(817.7, 265.7);
-  vertex(846.6, 319.6);
+  vertex(818.3, 266);
+  vertex(846.5, 319.5);
   endShape(CLOSE);
 
   //23
@@ -215,7 +215,7 @@ function draw() {
   fill(106, 126, 150);
   noStroke();
   vertex(758, 229);
-  vertex(817.7, 265.5);
+  vertex(818.3, 266);
   vertex(755, 270);
   endShape(CLOSE);
 
@@ -224,7 +224,7 @@ function draw() {
   fill(117, 139, 163);
   noStroke();
   vertex(758, 229);
-  vertex(817.7, 265.5);
+  vertex(818.3, 266);
   vertex(825, 214);
   endShape(CLOSE);
 
