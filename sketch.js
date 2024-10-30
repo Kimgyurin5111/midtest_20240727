@@ -1,5 +1,5 @@
 let img;
-//미리 로딩 준비
+
 function preload() {
   img = loadImage("jj.png");
 }
@@ -10,9 +10,7 @@ function setup() {
 
 function draw() {
   image(img, 0, 0, width, height);
-  if (mouseIsPressed === true) {
-    console.log(mouseX, mouseY);
-  }
+  
   //1
   beginShape();
   fill(202, 174, 160);
@@ -64,14 +62,14 @@ function draw() {
   noStroke();
   vertex(609, 275);
   vertex(591, 209);
-  vertex(547, 255);
+  vertex(546, 255);
   endShape(CLOSE);
 
   //7
   beginShape();
   fill(147, 160, 170);
   noStroke();
-  vertex(609.5, 275.5);
+  vertex(609.4, 275.3);
   vertex(591, 209);
   vertex(653, 229);
   endShape(CLOSE);
@@ -91,7 +89,7 @@ function draw() {
   noStroke();
   vertex(676, 163);
   vertex(591, 209);
-  vertex(584, 148);
+  vertex(583, 148.5);
   endShape(CLOSE);
 
   // 10
@@ -100,7 +98,7 @@ function draw() {
   noStroke();
   vertex(676, 163);
   vertex(671, 118);
-  vertex(582, 148);
+  vertex(583, 148.5);
   endShape(CLOSE);
 
   //11
@@ -153,8 +151,8 @@ function draw() {
   fill(58, 83, 105);
   noStroke();
   vertex(653, 229);
-  vertex(696, 271);
-  vertex(707, 334);
+  vertex(696.3, 271);
+  vertex(707.3, 334);
   vertex(673, 310);
   endShape(CLOSE);
 
@@ -163,34 +161,34 @@ function draw() {
   fill(200, 163, 140);
   noStroke();
   vertex(673, 309);
-  vertex(707, 334);
+  vertex(707.3, 334);
   vertex(645, 359.5);
   endShape(CLOSE);
 
   //18
   beginShape();
-  fill(57, 91, 137);
+  fill(47, 90, 127);
   noStroke();
-  vertex(785, 327);
+  vertex(785.5, 327.3);
   vertex(696, 271);
-  vertex(707, 334);
+  vertex(707.2, 333.7);
   endShape(CLOSE);
 
   //19
   beginShape();
   fill(10, 22, 34);
   noStroke();
-  vertex(785, 327);
-  vertex(752, 378);
-  vertex(707, 334);
+  vertex(785.6, 327.3);
+  vertex(752.6, 378);
+  vertex(707, 333.9);
   endShape(CLOSE);
 
   //20
   beginShape();
   fill(57, 91, 137);
   noStroke();
-  vertex(785, 327);
-  vertex(696, 271);
+  vertex(785.5, 327.3);
+  vertex(695.8, 271);
   vertex(755, 270);
   endShape(CLOSE);
 
@@ -198,8 +196,8 @@ function draw() {
   beginShape();
   fill(35, 80, 119);
   noStroke();
-  vertex(785, 327);
-  vertex(817, 265);
+  vertex(785.6, 327.3);
+  vertex(817.5, 265.7);
   vertex(755, 270);
   endShape(CLOSE);
 
@@ -207,9 +205,9 @@ function draw() {
   beginShape();
   fill(19, 60, 80);
   noStroke();
-  vertex(785, 327);
-  vertex(817.5, 265);
-  vertex(847, 319.5);
+  vertex(785.6, 327.3);
+  vertex(817.7, 265.7);
+  vertex(846.6, 319.6);
   endShape(CLOSE);
 
   //23
@@ -217,7 +215,7 @@ function draw() {
   fill(106, 126, 150);
   noStroke();
   vertex(758, 229);
-  vertex(817, 265);
+  vertex(817.7, 265.5);
   vertex(755, 270);
   endShape(CLOSE);
 
@@ -226,7 +224,7 @@ function draw() {
   fill(117, 139, 163);
   noStroke();
   vertex(758, 229);
-  vertex(817.5, 265);
+  vertex(817.7, 265.5);
   vertex(825, 214);
   endShape(CLOSE);
 
