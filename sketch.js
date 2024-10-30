@@ -84,13 +84,86 @@ function draw() {
   // vertex(591, 209);
   // vertex(653, 229);
   // endShape(CLOSE);
-  
-    //9
-  beginShape();
-  fill(50);
-  noStroke();
-  vertex(676, 163);
-  vertex(591, 209);
-  vertex(582, 148);
-  endShape(CLOSE);
+
+  // 9
+  // beginShape();
+  // fill(50);
+  // noStroke();
+  // vertex(676, 163);
+  // vertex(591, 209);
+  // vertex(582, 148);
+  // endShape(CLOSE);
+
+  // 10
+  // beginShape();
+  // fill(100);
+  // noStroke();
+  // vertex(676, 163);
+  // vertex(671, 118);
+  // vertex(582, 148);
+  // endShape(CLOSE);
+
+  //11
+  // beginShape();
+  // fill(100);
+  // noStroke();
+  // vertex(676, 163);
+  // vertex(671, 118);
+  // vertex(739, 126);
+  // endShape(CLOSE);
+
+  //12
+  // beginShape();
+  // fill(100);
+  // noStroke();
+  // vertex(676, 163);
+  // vertex(758, 229);
+  // vertex(739, 126);
+  // endShape(CLOSE);
+
+  //13
+  // beginShape();
+  // fill(100);
+  // noStroke();
+  // vertex(676, 163);
+  // vertex(758, 229);
+  // vertex(653, 229);
+  // endShape(CLOSE);
+
+  //14
+  // beginShape();
+  // fill(100);
+  // noStroke();
+  // vertex(653, 229);
+  // vertex(758, 229);
+  // vertex(755, 270);
+  // endShape(CLOSE);
+
+  //15
+  // beginShape();
+  // fill(100);
+  // noStroke();
+  // vertex(653, 229);
+  // vertex(696, 271);
+  // vertex(755, 270);
+  // endShape(CLOSE);
+
+  //16
+  // beginShape();
+  // fill(100);
+  // noStroke();
+  // vertex(653, 229);
+  // vertex(696, 271);
+  // vertex(707, 334);
+  // vertex(674, 309);
+  // endShape(CLOSE);
+
+  //17
+  // beginShape();
+  // fill(100);
+  // noStroke();
+  // vertex(674, 309);
+  // vertex(707, 334);
+  // vertex(645, 359);
+  // endShape(CLOSE);
 }
