@@ -206,7 +206,7 @@ function draw() {
   fill(19, 60, 80);
   noStroke();
   vertex(785.6, 327.3);
-  vertex(818.3, 266);
+  vertex(818.5, 266);
   vertex(847, 319.5);
   endShape(CLOSE);
 
